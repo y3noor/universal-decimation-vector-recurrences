@@ -1,0 +1,10 @@
+/HANDOFF.md
+/challenge_9_*.zip
+/challenge_9.tex
+/challenge_9_v*.pdf
+
+/reproduce/**/__pycache__/
+/reproduce/search_general
+/reproduce/search_quadratic
+/reproduce/results.json
+/reproduce/independent_verification.json

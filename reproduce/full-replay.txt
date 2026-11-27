@@ -1,0 +1,147 @@
+{
+  "finite_classifications": [
+    {
+      "n": 2,
+      "m": 2,
+      "examined": 256,
+      "maximal": 16,
+      "commuting": 4,
+      "admissible": 4,
+      "admissible_noncommuting": 0,
+      "coprime_decimations": 8
+    },
+    {
+      "n": 2,
+      "m": 3,
+      "examined": 4096,
+      "maximal": 192,
+      "commuting": 12,
+      "admissible": 12,
+      "admissible_noncommuting": 0,
+      "coprime_decimations": 36
+    }
+  ],
+  "obstruction_counterexample": {
+    "blocks": [
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "state_period": 63,
+    "rank_O2": 6,
+    "failing_decimations": [
+      8,
+      11,
+      16,
+      17,
+      23,
+      25,
+      29,
+      31,
+      32,
+      34,
+      38,
+      40,
+      46,
+      47,
+      52,
+      55
+    ]
+  },
+  "general_question": "not proved"
+}
+[
+  {
+    "n": 2,
+    "m": 2,
+    "polynomial": "0x13",
+    "unpruned_spaces": 7,
+    "alpha_splitting": 4,
+    "universal_spaces": 1,
+    "centralizer_and_subspace_polynomial_checked": true
+  },
+  {
+    "n": 2,
+    "m": 3,
+    "polynomial": "0x43",
+    "unpruned_spaces": 31,
+    "alpha_splitting": 16,
+    "universal_spaces": 1,
+    "centralizer_and_subspace_polynomial_checked": true
+  },
+  {
+    "n": 3,
+    "m": 2,
+    "polynomial": "0x43",
+    "unpruned_spaces": 155,
+    "alpha_splitting": 64,
+    "universal_spaces": 1,
+    "centralizer_and_subspace_polynomial_checked": true
+  },
+  {
+    "n": 4,
+    "m": 2,
+    "polynomial": "0x11d",
+    "unpruned_spaces": 11811,
+    "alpha_splitting": 4096,
+    "universal_spaces": 1,
+    "centralizer_and_subspace_polynomial_checked": false
+  }
+]
+{'r': 1, 'q': 2, 'basis_Fq': [1], 'planes': 7, 'good': [6], 'certified_failures': 6}
+{'r': 2, 'q': 4, 'basis_Fq': [1, 214], 'planes': 21, 'good': [10], 'certified_failures': 20}
+{'r': 3, 'q': 8, 'basis_Fq': [1, 936, 1198], 'planes': 73, 'good': [70], 'certified_failures': 72}
+Aggregate-spectrum inference gap verified exactly.
+Verified cubic example: beta=0x3b7, z=0x7b3, gamma=0x3b6.
+2 2 13 GOOD is_E=1 basis= 1 6
+2 3 43 GOOD is_E=1 basis= 1 3a
+2 4 11d GOOD is_E=1 basis= 1 d6
+2 5 409 GOOD is_E=1 basis= 1 ec
+2 6 1053 GOOD is_E=1 basis= 1 46
+m=7: survivor independently verified as F4
+m=7: 8191 normalized candidates tested; one survivor
+2 7 4443 GOOD is_E=1 basis= 1 27a6
+m=8: survivor independently verified as F4
+m=8: 32767 normalized candidates tested; one survivor
+2 8 1100b GOOD is_E=1 basis= 1 15e
+m=9: survivor independently verified as F4
+m=9: 131071 normalized candidates tested; one survivor
+2 9 40027 GOOD is_E=1 basis= 1 17624
+m=10: survivor independently verified as F4
+m=10: 524287 normalized candidates tested; one survivor
+2 10 100009 GOOD is_E=1 basis= 1 c5dea
+m=11: survivor independently verified as F4
+m=11: 2097151 normalized candidates tested; one survivor
+2 11 400003 GOOD is_E=1 basis= 1 210d16
+m=12: survivor independently verified as F4
+m=12: 8388607 normalized candidates tested; one survivor
+2 12 100001b GOOD is_E=1 basis= 1 104e
+3 2 43 GOOD is_E=1 basis= 1 e 16
+3 3 211 GOOD is_E=1 basis= 1 1c 14c
+3 4 1053 GOOD is_E=1 basis= 1 3a8 4ae
+3 5 8003 GOOD is_E=1 basis= 1 37c 154e
+3 6 40027 GOOD is_E=1 basis= 1 ba2 14652
+4 2 11d GOOD is_E=1 basis= 1 a 44 92
+4 3 1053 GOOD is_E=1 basis= 1 46 7b2 b3c
+4 4 1100b GOOD is_E=1 basis= 1 1a 144 1ce8
+4 5 100009 GOOD is_E=1 basis= 1 3afea 40dc2 85028
+5 2 409 GOOD is_E=1 basis= 1 e 54 134 236
+5 3 8003 GOOD is_E=1 basis= 1 13c 270 46a 104e
+5 4 100009 GOOD is_E=1 basis= 1 4bf6 1adce 4ba08 83172
+6 2 1053 GOOD is_E=1 basis= 1 46 82 10e 224 42c
+6 3 40027 GOOD is_E=1 basis= 1 38a 5ba 828 3076 14062
+7 2 4443 GOOD is_E=1 basis= 1 82 124 234 446 832 107e
+8 2 1100b GOOD is_E=1 basis= 1 1a c4 144 a68 1644 464e a600
+9 2 40027 GOOD is_E=1 basis= 1 1dc 418 a7e 12c6 4096 80fe 102dc 22090
+10 2 100009 GOOD is_E=1 basis= 1 57a 8e2 124e 209e 4314 82b0 10278 4028a 803a2
+11 2 400003 GOOD is_E=1 basis= 1 f1a 1522 276e 40f6 8188 103b6 204b2 4054e 801aa 1007be
+12 2 100001b GOOD is_E=1 basis= 1 1ce a74 104e e2ac 1401a 246c4 44282 84658 1064d6 404612 a0422c
